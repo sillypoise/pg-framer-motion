@@ -973,3 +973,86 @@ var {
   outline-offset: var(--space-3xs);
   outline-color: var(--debug-color, var(--neutral-on-surface-0));
 }
+
+.m-l {
+  margin: var(--space-l);
+}
+
+.h-l {
+  height: var(--space-l);
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.bg-light-blue-8 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(206 81.9% 65.3% / var(--tw-bg-opacity));
+}
+
+.bg-dark-blue-8 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(211 89.7% 34.1% / var(--tw-bg-opacity));
+}
+
+.p-xl {
+  padding: var(--space-xl);
+}
+
+.p-l {
+  padding: var(--space-l);
+}
+
+.text-2 {
+  font-size: var(--step-2);
+}
+
+.text-3 {
+  font-size: var(--step-3);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.bs-l {
+  block-size: var(--space-l);
+}
+
+.bs-m {
+  block-size: var(--space-m);
+}
+
+.min-bs-\[3rem\] {
+  min-block-size: 3rem;
+}
+
+.min-bs-\[10rem\] {
+  min-block-size: 10rem;
+}
+
+.is-l {
+  inline-size: var(--space-l);
+}
+
+.is-m {
+  inline-size: var(--space-m);
+}
+
+.max-is-\[55ch\] {
+  max-inline-size: 55ch;
+}
+
+.mlb-l {
+  margin-block: var(--space-l);
+}
+
+.mis-\[55ch\] {
+  -webkit-margin-start: 55ch;
+          margin-inline-start: 55ch;
+}
