@@ -1,0 +1,24 @@
+{
+    "name": "framer-basics",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "run-p \"dev:*\"",
+        "dev:css": "pnpm generate:css --watch",
+        "dev:vite": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "generate:css": "tailwindcss -i ../../sp-styles/tailwind.css -o ./styles/tailwind.css"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.24",
+        "@types/react-dom": "^18.0.8",
+        "@vitejs/plugin-react": "^2.2.0",
+        "typescript": "^4.6.4",
+        "vite": "^3.2.3"
+    }
+}
