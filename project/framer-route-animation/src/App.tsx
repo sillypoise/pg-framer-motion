@@ -17,7 +17,7 @@ function Page({ page }: { page: string }) {
                     transition: { duration: 0.5, ease: "circIn" },
                 }}
                 style={{ originX: isPresent ? 0 : 1 }}
-                className="imposter inset-[0] transform-none bg-dark-tomato-9"
+                className="imposter inset-[0] transform-none bg-dark-tomato-9 z-10"
             />
             <article className="center stack">
                 <div className="cover">
@@ -42,7 +42,7 @@ function App() {
         },
         {
             path: "/b",
-            element: <Page page="A" />,
+            element: <Page page="B" />,
         },
     ]);
 

@@ -981,6 +981,10 @@ var {
   left: 0;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .transform-none {
   transform: none;
 }
