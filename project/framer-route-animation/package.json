@@ -1,5 +1,5 @@
 {
-    "name": "framer-basics",
+    "name": "framer-route-animation",
     "private": true,
     "version": "0.0.0",
     "scripts": {
@@ -10,6 +10,7 @@
         "preview": "vite preview",
         "generate:css": "tailwindcss -i ../../sp-styles/tailwind.css -o ./styles/tailwind.css"
     },
-    "dependencies": {},
-    "devDependencies": {}
+    "dependencies": {
+        "react-router-dom": "^6.4.3"
+    }
 }
